@@ -30,6 +30,9 @@
 	height: 610px;
 	overflow-y: visible;
 }
+#second {
+	padding: 200px 0;
+}
 .upper-inner {
 	overflow-x: hidden;
 }
@@ -60,6 +63,7 @@
 }
 li.first-li {
 	background: #1064b2;
+	margin-right: 20px;
 }
 li.last-li {
 	border-left: 2px solid #5a5f65;
@@ -93,7 +97,8 @@ li.last-li>a>i {
 	padding-top: 20px;
 }
 .action-btn>a {
-	padding: 20px 25px;
+	padding: 20px 0px;
+	width: 155px;
 	margin-right: 15px;
 	border-radius: 0;
 	font-family: 'Titillium-Bold';
@@ -139,4 +144,39 @@ li.last-li>a>i {
 	width: 878px;
 	margin-left: -160px;
 	margin-top: -20px;
+}
+
+/* Payment logo */
+.pyt {
+	background: url('../img/payment.png');
+	width: 106px;
+	/*height: 40px;*/
+	display: inline-block;
+	margin-right: 35px;
+}
+.pyt-pp {
+	background-position: 0px 0px;
+	height: 22px;
+}
+.pyt-vs {
+	background-position: 0px -32px;
+	height: 18px;
+}
+.pyt-mc {
+	background-position: 0px -60px;
+	height: 40px;
+}
+.pyt-trusted {
+	background-position: 0px -110px;
+	height: 40px;
+}
+.pyt-sf {
+	background-position: 0px -160px;
+	height: 34px;
+}
+.payment-logo {
+	max-width: 830px;
+	padding: 0px 30px;
+	margin: 0 auto;
+	text-align: center;
 }
